@@ -7,6 +7,7 @@ import productRoutes from "./routes/productRoutes.js"
 import { getProducts } from './controllers/productController.js'
 import { sql } from './config/db.js'
 import arcjet from '@arcjet/node'
+import { aj } from "./lib/arcjet.js";
 dotenv.config()
 const app=express()
 const PORT =process.env.PORT ||3000;

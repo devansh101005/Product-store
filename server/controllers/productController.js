@@ -76,7 +76,7 @@ res.status(500).json({success:false,message:"Internal server error"})
 
 export const deleteProduct =async (req,res)=> {
 const {id} =req.params;
-const {name,price,image} =req.body
+//const {name,price,image} =req.body
 
 
 
